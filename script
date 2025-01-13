@@ -1,1 +1,5 @@
+local button = script.Parent
 
+button.MouseButton1Up:Connect(function()
+game:GetService("AvatarEditortorService"):PromtSetFavorite(id, enum.AvatarItemType.Asset, true)
+end)
